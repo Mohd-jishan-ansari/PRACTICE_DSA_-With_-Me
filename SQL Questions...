@@ -1,0 +1,41 @@
+QUES 1:- Solve the Sql Question and Feel confidence.....
+1. Email Duplicates
+In user account systems, duplicate email registrations can lead to co
+nfusion, security issues, or data corruption. Detecting these duplicates is essential for maintaining data integrity, ensuring unique logins, and preventing fraudulent registrations.
+
+You are given a Person table:
+
+╔═════════════╦══════════╗
+║ Column Name ║   Type   ║
+╠═════════════╬══════════╣
+║     id      ║   int    ║
+║─────────────┼──────────║
+║    email    ║ varchar  ║
+╚═════════════╩══════════╝
+id: A unique identifier for the user.
+email: The email address registered. The emails will not contain uppercase letters.
+Write a query to find all duplicate email addresses from the table. It is guaranteed that the email field is never NULL. The result can be returned in any order.
+
+Example 1:
+Example:
+
+Input:
+
+Person Table:
+
+╔════╦═════════╗
+║ id ║  email  ║
+╠════╬═════════╣
+║ 1  ║ a@b.com ║
+║────┼─────────║
+║ 2  ║ c@d.com ║
+║────┼─────────║
+║ 3  ║ a@b.com ║
+╚════╩═════════╝
+Output:
+
+╔═════════╗
+║  email  ║
+╠═════════╣
+║ a@b.com ║
+╚═════════╝
