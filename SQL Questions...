@@ -39,3 +39,20 @@ Output:
 ╠═════════╣
 ║ a@b.com ║
 ╚═════════╝
+
+
+
+
+
+Question 1 — Easy
+
+Create two tables: Department and Employee.
+
+Requirements:
+- Department table:
+  - dept_id — Primary Key
+  - dept_name — VARCHAR(50)
+- Employee table:
+  - emp_id — Primary Key
+  - emp_name — VARCHAR(50)
+  - dept_id — Foreign Key referencing Department(dept_id)
